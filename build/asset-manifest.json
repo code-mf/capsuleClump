@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/capsuleClump/static/css/main.a4da2694.css",
+    "main.js": "/capsuleClump/static/js/main.fa7a5965.js",
+    "index.html": "/capsuleClump/index.html",
+    "main.a4da2694.css.map": "/capsuleClump/static/css/main.a4da2694.css.map",
+    "main.fa7a5965.js.map": "/capsuleClump/static/js/main.fa7a5965.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4da2694.css",
+    "static/js/main.fa7a5965.js"
+  ]
+}
