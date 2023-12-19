@@ -2,6 +2,7 @@
   "name": "pmndrs-vercel",
   "version": "1.0.0",
   "description": null,
+  "homepage": "https://code-mf.github.io/capsuleClump/",
   "keywords": [
     "gradient",
     "lamina"
@@ -12,14 +13,16 @@
     "@react-three/cannon": "5.0.1",
     "@react-three/drei": "8.17.1",
     "@react-three/fiber": "7.0.26",
+    "gh-pages": "^6.1.0",
     "lamina": "1.1.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-scripts": "5.0.0",
     "three": "0.138.3"
   },
-  "devDependencies": {},
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
